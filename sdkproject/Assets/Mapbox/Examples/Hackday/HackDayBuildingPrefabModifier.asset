@@ -1,0 +1,18 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2a6f3a85f29a143498789ff35df4d055, type: 3}
+  m_Name: HackDayBuildingPrefabModifier
+  m_EditorClassIdentifier: 
+  Active: 1
+  _prefabList:
+  - {fileID: 1633614304960530, guid: 6c9d1f0e1e620475891a8a50d040556b, type: 2}
+  _buildingHeightKey: p
+  _scaleDownWithWorld: 1

@@ -12,10 +12,10 @@ MonoBehaviour:
   m_Name: HackDayBuildingVectorLayerVisualizer
   m_EditorClassIdentifier: 
   Active: 1
-  _classificationKey: pkm2
+  _classificationKey: p
   _key: outgeojson
   Filters: []
-  _defaultStack: {fileID: 11400000, guid: eb06f9324c5364f48a98112dcafcd891, type: 2}
+  _defaultStack: {fileID: 11400000, guid: cef93efdb83884688b9d36069407aed9, type: 2}
   Stacks: []
   _enableCoroutines: 1
   _entityPerCoroutine: 20
