@@ -1,0 +1,124 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1434757031291032}
+  m_IsPrefabParent: 1
+--- !u!1 &1254215298113682
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4636816902066464}
+  - component: {fileID: 33523187129610208}
+  - component: {fileID: 23082495069236448}
+  m_Layer: 0
+  m_Name: default
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &1434757031291032
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4137171738546846}
+  m_Layer: 0
+  m_Name: building_garden
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4137171738546846
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1434757031291032}
+  m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -1.7, y: 0, z: 3.032}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 4636816902066464}
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &4636816902066464
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1254215298113682}
+  m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -0, y: 2.15, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 4137171738546846}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!23 &23082495069236448
+MeshRenderer:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1254215298113682}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_Materials:
+  - {fileID: 2100000, guid: 34bf9f2f98f3f45e0944e397f7c02019, type: 2}
+  - {fileID: 2100000, guid: 949bd50ba2cb445c8874982d124a8f89, type: 2}
+  - {fileID: 2100000, guid: 62aee3ef4b463410e8a2a0f95013ec57, type: 2}
+  - {fileID: 2100000, guid: e45aafc7e5d5b4dc3b91db8f8ed8f058, type: 2}
+  - {fileID: 2100000, guid: 97966bee697fd478392a2a0b0868bb31, type: 2}
+  - {fileID: 2100000, guid: cd3c7676adc254a2a91023881af5d871, type: 2}
+  - {fileID: 2100000, guid: a16b7d82a699344d0a985370c69f06f6, type: 2}
+  - {fileID: 2100000, guid: eaf9f3bad92d744eb81c216d44511329, type: 2}
+  - {fileID: 2100000, guid: 2ed183846210e4624981fc885a879ced, type: 2}
+  - {fileID: 2100000, guid: 1c1ed25d21df34254b115257039bd076, type: 2}
+  - {fileID: 2100000, guid: 9bf3980bb400f4c63932f708282d61b3, type: 2}
+  - {fileID: 2100000, guid: 1300d3b12f8b04377b4e568f1e808c86, type: 2}
+  - {fileID: 2100000, guid: d3c89fb17fddd45f4a26c8d255709c9c, type: 2}
+  - {fileID: 2100000, guid: bae4edbc7d3b04ac9af93968dd30934c, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+--- !u!33 &33523187129610208
+MeshFilter:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1254215298113682}
+  m_Mesh: {fileID: 4300000, guid: a9339b69380074efd96fa60afde98a66, type: 3}
