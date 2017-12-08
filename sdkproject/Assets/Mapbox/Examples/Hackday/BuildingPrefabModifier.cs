@@ -56,23 +56,23 @@ namespace Mapbox.Unity.MeshGeneration.Modifiers
 			{
 				int height = 10;
 				int.TryParse(ve.Feature.Properties[_buildingHeightKey].ToString(), out height);
-				//Debug.Log("Height : " + height);
+				Debug.Log("Height : " + height);
 				int index = 0;
 				if (height < 200)
 				{
 					index = 0;
 				}
 				go = Instantiate(_prefabList[index]);
-				var scale = go.transform.localScale;
-				scale.y = height;
-				go.transform.localScale = scale;
+				//var scale = go.transform.localScale;
+				//scale.y = height;
+				//go.transform.localScale = scale;
 				_objects.Add(ve.GameObject, go);
 			}
 
 			go.name = ve.Feature.Data.Id.ToString();
 			go.transform.position = met;
 			go.transform.SetParent(ve.GameObject.transform, false);
-			//go.transform.localScale = Constants.Math.Vector3One;
+			go.transform.localScale = Constants.Math.Vector3One;
 
 			settable = go.GetComponent<IFeaturePropertySettable>();
 			if (settable != null)

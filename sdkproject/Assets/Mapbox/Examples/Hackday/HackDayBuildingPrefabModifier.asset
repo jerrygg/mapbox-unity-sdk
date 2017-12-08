@@ -13,6 +13,14 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Active: 1
   _prefabList:
-  - {fileID: 1633614304960530, guid: 6c9d1f0e1e620475891a8a50d040556b, type: 2}
-  _buildingHeightKey: p
+  - {fileID: 1419687319698912, guid: 00db0edc57f1541e798fb5c01ef760fd, type: 2}
+  - {fileID: 1887893254495044, guid: 5819bcb26b0c8491aa1204339e0e60d7, type: 2}
+  - {fileID: 1778950667503788, guid: 74052eea775e248f39f8b439aab7f789, type: 2}
+  - {fileID: 1612565917949454, guid: c573dd2f149904f17be352b7c6c1c704, type: 2}
+  - {fileID: 1381434442157274, guid: 2940885d3c34f4a29be3fd38e9aa8d0f, type: 2}
+  - {fileID: 1434757031291032, guid: 2887e1912e3d0415e9deb288c43b7fdf, type: 2}
+  - {fileID: 1857534110157512, guid: f36edfc1f67444f8485a4a5ac900961a, type: 2}
+  - {fileID: 1810759018325652, guid: b9fe844f683e8437db97c1e1b29f2495, type: 2}
+  - {fileID: 1890360364511130, guid: 77aef52a188ff4430a767427b17db029, type: 2}
+  _buildingHeightKey: pkm2
   _scaleDownWithWorld: 1
